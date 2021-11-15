@@ -1,0 +1,9 @@
+!SESSION 2021-11-15 18:51:58.809 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_292
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.osgi 4 0 2021-11-15 18:51:59.169
+!MESSAGE Bundle reference:file:pax-confman-propsloader-0.2.3.jar@1:start not found.
