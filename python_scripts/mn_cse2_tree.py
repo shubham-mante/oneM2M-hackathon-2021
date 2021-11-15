@@ -38,14 +38,13 @@ create_cin(uri_cse +  '/' + 'AE_CO2' + '/' + 'Floor_2' + 'Descriptor', descripto
 create_flex_cnt(uri_cse +  '/' + 'AE_CO2' + '/' + 'Floor_2', 'Data',  ['co2-monitoring','dining_hall'], data_format="json")
 
 
-
 """
 	Point of access (poa) : enter the access URL as per the point of access of the application
-	Ex. If the toggleLED application (AE_AS) running on ESP has IP = 123.234.345.456 then replace the 'poa' inside ae_list will be : http://123.234.345.456/toggleLED.
+	Ex. If the toggleLED application (AE_AW) running on ESP1 has IP = 123.234.345.456 then replace the 'poa' inside ae_list will be : http://123.234.345.456/. Similarly for exp2_ip. I Here, we have used a simple http server that acts as a listener.
 
 """
 
 
 # create automatic window application entity
-poa1 = 'http://192.156.456.111/toggleLED'
+poa1 = 'http://127.0.0.1:1400/'
 create_ae(uri_cse, 'AE_AW', poa1, ['automatic-window-application','dining_hall'], data_format="json")

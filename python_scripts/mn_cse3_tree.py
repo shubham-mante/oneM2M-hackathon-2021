@@ -42,11 +42,11 @@ create_flex_cnt(uri_cse +  '/' + 'AE_CM' + '/' + 'Floor_2', 'Data',  ['crowd-mon
 
 """
 	Point of access (poa) : enter the access URL as per the point of access of the application
-	Ex. If the toggleLED application (AE_AW) running on ESP1 has IP = 123.234.345.456 then replace the 'poa' inside ae_list will be : http://123.234.345.456/toggleLED. Similarly for exp2_ip.
+	Ex. If the toggleLED application (AE_AW) running on ESP1 has IP = 123.234.345.456 then replace the 'poa' inside ae_list will be : http://123.234.345.456/. Similarly for exp2_ip. I Here, we have used a simple http server that acts as a listener.
 
 """
 
 
 # create automatic window application entity
-poa1 = 'http://192.156.123.235/buzzer'
+poa1 = 'http://127.0.0.1:1400/'
 create_ae(uri_cse, 'AE_AS', poa1, ['alert-system-application','isolation_ward'], data_format="json")
