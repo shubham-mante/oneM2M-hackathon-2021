@@ -64,4 +64,4 @@ Note-4: Flex containers are used as data containers to provide flexible key-valu
 * Similarly, run $ python3 subscribe_mn_cse3.py file to create subscription resource under the data containers of MN-CSE3
 
 Note: As, the http_server is used as listener for the validation of subscription resource creation, below message will appear on the server's terminal.
-![subs_response1](https://github.com/shubham-mante/oneM2M-hackathon-2021/blob/main/Diagrams/subs_response1.png)
+![subs_response](https://github.com/shubham-mante/oneM2M-hackathon-2021/blob/main/Diagrams/subs_response.png)
