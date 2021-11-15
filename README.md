@@ -19,14 +19,14 @@ $ git clone https://github.com/shubham-mante/oneM2M-hackathon-2021.git
 * Run $ python3 mn_cse1_tree.py file to create the application entities under MN-CSE1
 ![academic-block.png](https://github.com/shubham-mante/oneM2M-hackathon-2021/blob/main/Diagrams/academic_block.png)
 * Run $ python3 mn_cse2_tree.py file to create the application entities under MN-CSE2
-![dining_hall.png](https://github.com/shubham-mante/oneM2M-hackathon-2021/blob/main/Diagrams/dining-hall.png)
+![dining_hall.png](https://github.com/shubham-mante/oneM2M-hackathon-2021/blob/main/Diagrams/dining_hall.png)
 * Run $ python3 mn_cse3_tree.py file to create the application entities under MN-CSE3
 ![isolation_ward](https://github.com/shubham-mante/oneM2M-hackathon-2021/blob/main/Diagrams/isolation_ward.png)
 Note-1: New resources can be created under a CSE with the help of oneM2M_functions.py file.
 Note-2: Labels are added to the resources which will be used during the **Discovery** based data retrieval.
 Note-3: Containers are used to store the descriptor content instances which helps add meaning to the data users due to the provision of added semantics.
 Note-4: Flex containers are used as data containers to provide flexible key-value pairs. 
-![flex_cnt](https://github.com/shubham-mante/oneM2M-hackathon-2021/blbo/main/Diagrams/flex_cnt.png)
+![flex_cnt](https://github.com/shubham-mante/oneM2M-hackathon-2021/blob/main/Diagrams/flex_cnt.png)
 
 # Step-4: Start the Interworking Proxy Entity (IPE)
 * An IPE is developed and integrated with the oneM2M platform for communication between a non-oneM2M device and oneM2M platform
