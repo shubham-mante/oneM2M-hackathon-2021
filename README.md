@@ -74,3 +74,13 @@ Note-4: Flex containers are used as data containers to provide flexible key-valu
 Note: As, the http_server is used as listener for the validation of subscription resource creation, below message will appear on the server's terminal.
 
 ![subs_response](https://github.com/shubham-mante/oneM2M-hackathon-2021/blob/main/Diagrams/subs_response.png)
+
+
+# Step-8: Hardware codes
+* Go to the directory, **ESP8266_codes** and use the sensing nodes' and actuating nodes' codes for the monitoring and actuating applications respectively.
+* **Data Security :** The vulnerability of weak passwords can be exploited by an attacker to access information from the resource tree. To provide further data confidentiality and privacy, encryption is performed on the sensed data before pushing it to OM2M. Elliptic Curve Cryptography (ECC) is a public key-based cryptosystem suitable for resource constrained devices. A 160-bit ECC offers the same level of security as compared to a 1024 –bit RS algorithm thus ECC is chosen for encrypting the sensed data sent from the air quality sensor nodes to OM2M. Arduino library, tinyECC has been used on theESP8266 microcontroller. 
+
+![encrypt_data](https://github.com/shubham-mante/oneM2M-hackathon-2021/blob/main/Diagrams/encrypt_data.png)
+
+# Step-9: Dashboard
+* Go to the directory, **Dashboard** and use the code of the dashboard application for data visualization.
