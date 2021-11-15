@@ -22,9 +22,15 @@ $ git clone https://github.com/shubham-mante/oneM2M-hackathon-2021.git
 ![dining_hall.png](https://github.com/shubham-mante/oneM2M-hackathon-2021/blob/main/Diagrams/dining_hall.png)
 * Run $ python3 mn_cse3_tree.py file to create the application entities under MN-CSE3
 ![isolation_ward](https://github.com/shubham-mante/oneM2M-hackathon-2021/blob/main/Diagrams/isolation_ward.png)
+
+
 Note-1: New resources can be created under a CSE with the help of oneM2M_functions.py file.
+
 Note-2: Labels are added to the resources which will be used during the **Discovery** based data retrieval.
+
 Note-3: Containers are used to store the descriptor content instances which helps add meaning to the data users due to the provision of added semantics.
+![descriptor](https://github.com/shubham-mante/oneM2M-hackathon-2021/blob/main/Diagrams/descriptor.png)
+
 Note-4: Flex containers are used as data containers to provide flexible key-value pairs. 
 ![flex_cnt](https://github.com/shubham-mante/oneM2M-hackathon-2021/blob/main/Diagrams/flex_cnt.png)
 
@@ -32,8 +38,10 @@ Note-4: Flex containers are used as data containers to provide flexible key-valu
 * An IPE is developed and integrated with the oneM2M platform for communication between a non-oneM2M device and oneM2M platform
 * The IPE parses required value from a non-oneM2M data model and store it as a content instance as per oneM2M data model.
 * non-oneM2M data model
+
 ![thingSpeak](https://github.com/shubham-mante/oneM2M-hackathon-2021/blob/main/Diagrams/thingSpeak.png)
 * oneM2M data model storing CO value as a content instance
+
 ![ipe_om2m](https://github.com/shubham-mante/oneM2M-hackathon-2021/blob/main/Diagrams/ipe_om2m.png)
 * To start the IPE (inside MN-CSE1 in this case), enter **start 49** in the MN-CSE1 terminal. A message **Starting Sample Ipe** will appear on the terminal.
 * New content instances will be created under **Data** container of AE_WS as shown below
@@ -64,4 +72,5 @@ Note-4: Flex containers are used as data containers to provide flexible key-valu
 * Similarly, run $ python3 subscribe_mn_cse3.py file to create subscription resource under the data containers of MN-CSE3
 
 Note: As, the http_server is used as listener for the validation of subscription resource creation, below message will appear on the server's terminal.
+
 ![subs_response](https://github.com/shubham-mante/oneM2M-hackathon-2021/blob/main/Diagrams/subs_response.png)
