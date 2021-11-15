@@ -22,7 +22,7 @@ for i in range(3):
     ri_list.append(ri["m2m:ae"]["ri"])
 
 
-acp_list  = [{"acor": ["admin:admin", "/in-cse"], "acop": "63"}, {"acor": "guest:guest", "acop": "34"}, {"acor": ri_list, "acop": "2"}, {"acor": "test_acp:test_acp", "acop": "34"}]
+acp_list  = [{"acor": ["admin:admin", "/in-cse"], "acop": "63"}, {"acor": "guest:guest", "acop": "34"}, {"acor": ri_list, "acop": "2"}, {"acor": "test_acp:test_acp", "acop": "18"}]
 acp_admin_ri = get_ri("http://127.0.0.1:8282/~/mn-cse2/dining_hall/acp_admin")
 update_acp("http://127.0.0.1:8282/~"+ acp_admin_ri["m2m:acp"]["ri"], acp_list)
 
