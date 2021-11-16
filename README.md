@@ -1,7 +1,7 @@
 # oneM2M Resource Tree structure
 We have created a decentralised IoT solution consisting of a central IN-CSE and 3 MN-CSEs. This type of architecture is easily scalable for large scale systems
 such as Smart City and enables seamless interaction between heterogeneous applications independent of underlying communication technologies.
-![decentralized_IoT_system.png.png](https://github.com/shubham-mante/oneM2M-hackathon-2021/blob/main/Diagrams/decentralized_IoT_system.png.png)
+![decentralized_IoT_system.png](https://github.com/shubham-mante/oneM2M-hackathon-2021/blob/main/Diagrams/decentralized_IoT_system.png)
 
 # Step-1: Clone the repository locally on your system
 $ git clone https://github.com/shubham-mante/oneM2M-hackathon-2021.git
